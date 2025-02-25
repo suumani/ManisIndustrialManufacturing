@@ -25,7 +25,9 @@ data:extend {{
     minable = {
         mining_time = 2,
         results = {
-            {type = "item", name = "copper-ore", amount = 1}
+            {type = "item", name = "copper-ore", amount = 1},
+            {type = "item", name = "gold-ore", amount_min = 0, amount_max = 1, amount = 1, probability = 0.1},
+            {type = "item", name = "silver-ore", amount_min = 0, amount_max = 1, amount = 1, probability = 0.05},
         },
     },
     starting_area = true,
