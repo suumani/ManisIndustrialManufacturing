@@ -26,7 +26,12 @@ data:extend {{
     minable = {
         mining_time = 2,
         results = {
-            {type = "item", name = "bauxite-ore", amount = 1}
+            {type = "item", name = "bauxite-ore", amount = 1},
+            {type = "item", name = "iron-ore", amount_min = 0, amount_max = 1, amount = 1, probability = 0.4},
+            {type = "item", name = "silica-ore", amount_min = 0, amount_max = 1, amount = 1, probability = 0.3},
+            {type = "item", name = "stone", amount_min = 0, amount_max = 1, amount = 1, probability = 0.5},
+            {type = "item", name = "titanium-ore", amount_min = 0, amount_max = 1, amount = 1, probability = 0.01},
+            {type = "item", name = "rare-metal-ore", amount_min = 0, amount_max = 1, amount = 1, probability = 0.02},
         },
     },
     starting_area = true,
